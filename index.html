@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+   
+   * {
+    background-color: black;
+   }
+
+    .panel1 {
+        width: 10%;
+        border-top-left-radius: ;
+        
+        background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0.943), rgba(79, 75, 75, 0));
+        height: 90vh;
+        transition: 18s;
+    }
+
+   
+    .panel2 {
+        width: 20%;
+        
+        background-image: linear-gradient(to bottom, rgba(69, 192, 192, 0.943), rgba(79, 75, 75, 0));
+        height: 90vh;
+        transition: 20s;
+    }
+    .panel3 {
+        width: 40%;
+       
+        background-image: linear-gradient(to bottom, rgba(64, 141, 141, 0.943), rgba(79, 75, 75, 0));
+        height: 90vh;
+        transition: 22s;
+    }
+    .panel4 {
+        width: 20%;
+      
+        background-image: linear-gradient(to bottom, rgba(22, 89, 89, 0.943), rgba(79, 75, 75, 0));
+        height: 90vh;
+        transition: 24s;
+    }
+    .panel5 {
+        width: 10%;
+       
+        background-image: linear-gradient(to bottom, rgba(65, 169, 169, 0.943), rgba(79, 75, 75, 0));
+        height: 90vh;
+        transition: 26s;
+    }
+
+    .panel6 {
+        width: 5%;
+       
+        background-image: linear-gradient(to bottom, rgba(0, 244, 244, 0.943), rgba(79, 75, 75, 0));
+        height: 90vh;
+        transition: 28s;
+        border-top-right-radius:;
+    }
+
+    .panelcontainer {
+        display: flex;
+    }
+</style>
+
+
+</head>
+<body>
+
+    <div class="panelcontainer">
+
+        <div class="panel1"  id="p1"></div>
+        <div class="panel2"  id="p2"></div>
+        <div class="panel3"  id="p3"></div>
+        <div class="panel4"  id="p4"></div>
+        <div class="panel5"  id="p5"></div>
+        <div class="panel6"  id="p6"></div>
+        
+    </div>
+
+<script>
+    function panelChange() {
+        
+        setInterval(function () {
+            var fl = document.getElementById("p1");
+            fl.style.width = "30%";
+        }, 3000);
+
+        setInterval(function () {
+            var fl = document.getElementById("p1");
+            fl.style.width = "20%";
+        }, 5000);
+       
+ 
+    };
+
+    function panel2Change() {
+        
+        setInterval(function () {
+            var fl = document.getElementById("p2");
+            fl.style.width = "10%";
+        }, 2000);
+
+        setInterval(function () {
+            var fl = document.getElementById("p2");
+            fl.style.width = "30%";
+        }, 4000);
+       
+ 
+    };
+
+    function panel3Change() {
+        
+        setInterval(function () {
+            var fl = document.getElementById("p3");
+            fl.style.width = "10%";
+        }, 4000);
+
+        setInterval(function () {
+            var fl = document.getElementById("p3");
+            fl.style.width = "30%";
+        }, 6000);
+       
+ 
+    };
+
+    function panel4Change() {
+        
+        setInterval(function () {
+            var fl = document.getElementById("p4");
+            fl.style.width = "40%";
+        }, 4000);
+
+        setInterval(function () {
+            var fl = document.getElementById("p3");
+            fl.style.width = "30%";
+        }, 7000);
+       
+ 
+    };
+
+    function panel5Change() {
+        
+        setInterval(function () {
+            var fl = document.getElementById("p5");
+            fl.style.width = "20%";
+        }, 2000);
+
+        setInterval(function () {
+            var fl = document.getElementById("p5");
+            fl.style.width = "10%";
+        }, 5000);
+       
+ 
+    };
+    
+
+    function panel6Change() {
+        
+        setInterval(function () {
+            var fl = document.getElementById("p6");
+            fl.style.width = "30%";
+        }, 4000);
+
+        setInterval(function () {
+            var fl = document.getElementById("p6");
+            fl.style.width = "5%";
+        }, 5000);
+       
+ 
+    };
+    panelChange();
+    panel2Change();
+    panel3Change();
+    panel4Change();
+    panel5Change();
+    panel6Change();
+</script>
+
+</body>
+</html>
