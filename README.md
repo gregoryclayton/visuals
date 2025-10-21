@@ -1,2 +1,2 @@
 # visuals
-a series of visualizers and stuff for lrge scale screens and projection.
+a series of visualizers and stuff for large scale screens and projection.
